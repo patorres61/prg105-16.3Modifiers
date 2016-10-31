@@ -1,5 +1,5 @@
 # Phyllis Torres
-# 16.2 Time Assignment
+# 16.3 Time Modifiers Assignment
 # Due 11/10/2016
 
 print('16.3 Modifiers Assignment\n')
