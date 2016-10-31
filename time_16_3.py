@@ -58,6 +58,7 @@ inc_seconds = increment(time.seconds, int(inc_sec))
 # call function to convert seconds back to time format
 time = int_to_time(inc_seconds)
 
+# adjust the hour if the hour is greater than 12
 if time.hour > 12:
     time.hour -= 12
 
