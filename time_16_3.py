@@ -10,6 +10,10 @@ print('The function returns the modified time object.')
 # create a time class
 # noinspection PyClassHasNoInit
 class Time:
+    def __init__(self):
+        self.minute = None
+        self.second = None
+        self.hour = None
     """Represents the time of day
     attributes: hour, minute, second
     """
