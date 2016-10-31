@@ -56,9 +56,9 @@ print ('\nThe amount time will be incremented by is: ' + str(inc_sec) + ' second
 inc_seconds = increment(time.seconds, int(inc_sec))
 
 # call function to convert seconds back to time format
-timeNew = int_to_time(inc_seconds)
+time = int_to_time(inc_seconds)
 
-if timeNew.hour > 12:
-    timeNew.hour -= 12
+if time.hour > 12:
+    time.hour -= 12
 
-print ('\nThe incremented time is ' + '%.2d:%.2d:%.2d' % (timeNew.hour, timeNew.minute, timeNew.second))
+print ('\nThe incremented time is ' + '%.2d:%.2d:%.2d' % (time.hour, time.minute, time.second))
