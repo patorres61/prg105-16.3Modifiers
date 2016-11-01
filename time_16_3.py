@@ -8,7 +8,6 @@ print('Phyllis Torres\n\n')
 print('This program will use a function that takes a given number of seconds and adds it to a time object. ')
 print('The function returns the modified time object.')
 # create a time class
-# noinspection PyClassHasNoInit
 class Time:
     def __init__(self):
         self.minute = None
